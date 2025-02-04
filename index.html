@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Sorpresa para mi novia!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola, amor!</h1>
+        <p>Para obtener tu regalo, debes resolver las siguientes pruebas. ¡Buena suerte!</p>
+
+        <!-- Prueba 1 -->
+        <div class="prueba">
+            <h2>Prueba 1: DNI</h2>
+            <p>¿Cuál es mi DNI?</p>
+            <input type="text" id="respuesta1" placeholder="Escribe tu respuesta">
+            <button onclick="verificarRespuesta(1)">Verificar</button>
+            <p id="resultado1"></p>
+        </div>
+
+        <!-- Prueba 2 -->
+        <div class="prueba">
+            <h2>Prueba 2: Número de teléfono</h2>
+            <p>¿Cuál es mi número de teléfono?</p>
+            <input type="text" id="respuesta2" placeholder="Escribe tu respuesta">
+            <button onclick="verificarRespuesta(2)">Verificar</button>
+            <p id="resultado2"></p>
+        </div>
+
+        <!-- Prueba 3 -->
+        <div class="prueba">
+            <h2>Prueba 3: Cumpleaños</h2>
+            <p>¿Cúando es mi cumpleaños?</p>
+            <input type="text" id="respuesta3" placeholder="Escribe la palabra correcta">
+            <button onclick="verificarRespuesta(3)">Verificar</button>
+            <p id="resultado3"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
